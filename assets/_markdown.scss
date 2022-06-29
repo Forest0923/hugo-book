@@ -15,6 +15,7 @@
   h5,
   h6 {
     font-weight: normal;
+    font-weight: bold;
     line-height: 1;
     margin-top: 1.5em;
     margin-bottom: $padding-16;
@@ -70,7 +71,7 @@
 
   code {
     padding: 0 $padding-4;
-    background: var(--gray-200);
+    background: var(--gray-100);
     border-radius: $border-radius;
     font-size: 0.875em;
   }
@@ -80,6 +81,7 @@
     background: var(--gray-100);
     border-radius: $border-radius;
     overflow-x: auto;
+    background-color: #111 !important;
 
     code {
       padding: 0;
